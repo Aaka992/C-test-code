@@ -2,8 +2,6 @@
 #define COUNT 10
 
 bool header::insert(Elem *& root, const KEY &key, const T &data, Elem *lastLeft){
-    struct node *tempNode = (struct node*) malloc(sizeof(struct node));
-    tempNode->data = data;
             if(root==NULL) 
             {
                 root = data;
